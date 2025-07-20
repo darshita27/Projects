@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.mainbox{
+    width: 700px;
+    height: 700px;
+    background: url(todoo.jpeg);
+    margin:auto;
+    position: relative;
+}
+body{
+        background: url(todo.jpeg);
+        background-repeat: repeat;
+        background-size: cover;
+        cursor: pointer;
+}
+#inputbox{
+    height:60px;
+    width: 450px;
+    position: absolute;
+    top:100px;
+    left: 5px;
+}
+#btn{
+    position: absolute;
+    top:100px;
+    right: 120px;
+    height: 60px;
+    width: 110px;
+}
+#unorderlist{
+    position: absolute;
+    top: 200px;
+    left: 30px;
+}
+.btn{
+    margin-left: 40px;
+    background-color: bisque;
+    width: 80px;
+}
+.btn:hover{
+    background-color: aquamarine;
+}
+::placeholder{
+    color: blue;
+}

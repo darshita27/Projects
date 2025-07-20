@@ -1,0 +1,660 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  .nav{
+  width: 100%;
+  height: 55px;
+  border: 2px solid black;
+  background-color: #0F1111;
+  display: flex;
+  }
+  .logo{
+    width: 150px;
+    height: 50px;
+    border: 3px solid black;
+    background: url(amazon\ logo.png);
+    background-size: 100% 100%;
+  }
+  .location{
+    width: 80px;
+    height: 50px;
+    margin-left: 20px;
+    border: 3px solid transparent; 
+    position: absolute;
+    top: 6px;
+    left: 150px;
+  }
+   .location p{
+    color: white;
+  }
+  .co{
+    color: white;
+  } 
+  .location-icon{
+    display: flex;
+    position: absolute;
+    top: 20px;
+    left: 3px;
+  }
+  .location:hover{
+    cursor: pointer;
+    border: 1px solid white;
+  }
+  .abc{
+    color: white;
+  }
+  .search-box{
+    width: 450px;
+    height: 49px;
+    box-sizing: border-box;
+  }
+  .cat{
+    height: 43px;
+    width: 60px;
+    margin-left: 10px;
+    display: flex;
+    margin-top: 4px;
+    border-radius: 3px ;
+    margin: 1px solid white;
+    background-color: #E6E6E6;
+    position: absolute;
+    left: 264px;
+    top: 3px;
+  }
+   label{
+    font-size: 30px;
+    cursor: pointer;
+   }
+   select{
+    height:45px;
+    width: 650px;
+    background-color: white;
+    color:rgb(93, 91, 91);
+    border-radius: 4px;
+   }
+   .search{
+    height: 40px;
+    width:500px;
+    background-color: white;
+    text-indent: 5px;
+    color: grey;
+    position: absolute;
+    left: 330px;
+    top:5px;
+   }
+   .magni{
+  height:45px;
+  width:55px;
+  background-color: #ff9900;
+  border-radius: 6px;
+  cursor: pointer;
+  position: absolute;
+  right: 384px;
+  top:6px;
+   }
+  .magni:hover{
+    cursor:pointer;
+  
+  }
+  .language{
+  color:white;
+  margin-top: 5px;
+  }
+  .language:hover{
+    border: 3px solid white;
+    cursor: pointer;
+  }
+  .loc{
+    margin-right: 3px;
+    width: 60px;
+    background-color: #0F1111;
+    color: white;
+    border: 0px solid transparent;
+    border-radius: 3px;
+    position: absolute;
+    right: 310px;
+    top : 6px;
+  }
+  .loc:hover{
+    cursor:pointer;
+    border: 1px solid white;
+  }
+  .sign{
+    margin-top: 5px;
+    margin-left: 5px;
+    height: 45px;
+    width:120px;
+    color: white;
+    background-color: #0F1111;
+    position: absolute;
+    right: 170px;
+    top: 2px;
+    }
+  .sign:hover{
+    cursor:pointer;
+    border: 1px solid white;
+  }
+  .sign:p{
+    font-size: medium;
+  }
+  .return{
+    background-color: #0F1111;
+    color: white;
+    height: 45px;
+    width: 80px;
+    position: absolute;
+    right: 85px;
+    top: 8px;
+  }
+  .return:hover{
+    cursor:pointer;
+    border: 1px solid white;
+  }
+  .nav2{
+  width: 100%;
+  height: 39px;
+  border: 2px solid black;
+  background-color: #222525;
+  position: absolute;
+  top: 59px;
+  }
+  .list2{
+    width: 58.42px;
+    height: 30px;
+    background-color: #222525;
+  }
+  .list2:hover{
+    cursor: pointer;
+    border: 1px solid white;
+  }
+  .Todaysdeal{
+  width: 102px;
+  height: 38px;
+  display: flex;
+  color: white;
+  position: absolute;
+  top: 0px;
+  left: 70px;
+  text-align: center;
+  size: 10px;
+  }
+  .Todaysdeal:hover{
+    cursor: pointer;
+    border: 1px solid white;
+  }
+  .customerservice{
+    width: 128.34px;
+    height: 38px;
+    position: absolute;
+    top: 0px;
+    left: 180px;
+    color: white;
+  }
+  .customerservice:hover{
+    cursor: pointer;
+    border: 1px solid white;
+  }
+  .Registry{
+    width: 69.38px;
+    height: 38px;
+    position: absolute;
+    top: 0px;
+    left: 320px;
+    color: white;
+  }
+  .Registry:hover{
+    cursor: pointer;
+    border: 1px solid white;
+  }
+  .giftcards{
+    width: 80px;
+    height: 38px;
+    position: absolute;
+    top: 0px;
+    left: 400px;
+    color: white;
+  }
+  .giftcards:hover{
+    cursor: pointer;
+    border: 1px solid white;
+  }
+  .sell{
+    width: 51px;
+    height: 38px;
+    position: absolute;
+    top: 0px;
+    left: 490px;
+    color: white;
+  }
+  .sell:hover{
+    cursor: pointer;
+    border: 1px solid white;
+  }
+  body{
+    background: url(image1.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+.desc{
+  width: 1210px;
+  height: 40px;
+  background-color: #F5F6F6;
+  position: absolute;
+  bottom: 200px;
+  left: 25px;
+}
+.gaming-accessories{
+  width: 285px ;
+  height: 410px ;
+  background-color: #FFFFFF ;
+  position: absolute;
+  left: 17px;
+  top: 410px;
+}
+.seemoregamingaccessories{
+  color: #007185;
+  position: absolute;
+  top: 350px;
+  left:30px; 
+}
+.seemoregamingaccessories:hover{
+  cursor: pointer;
+  color: orange;
+}
+.shopdealsinfashion{
+  width: 285px ;
+  height: 410px ;
+  background-color: #FFFFFF ;
+  position: absolute;
+  left: 325px;
+  top: 410px;
+}
+.seealldeals{
+  color: #007185;
+  position: absolute;
+  top: 360px;
+  left:30px;
+}
+.seealldeals:hover{
+  cursor: pointer;
+  color: orange;
+}
+.refreshyourspace{
+  width: 290px ;
+  height: 410px ;
+  background-color: #FFFFFF ;
+  position: absolute;
+  right: 324px;
+  top: 410px;
+}
+.seemorerefreshyourspace{
+  color: #007185;
+  position: absolute;
+  top: 360px;
+  left:30px;
+}
+.seemorerefreshyourspace:hover{
+  cursor: pointer;
+  color: orange;
+}
+.dealsinPCs{
+  width: 290px ;
+  height: 410px ;
+  background-color: #FFFFFF ;
+  position: absolute;
+  right: 15px;
+  top: 410px;
+}
+.seemoredealsinPCs{
+  color: #007185;
+  position: absolute;
+  top: 360px;
+  left:30px;
+}
+.seemoredealsinPCs:hover{
+  cursor: pointer;
+  color: orange;
+}
+.headset{
+  height:110px;
+  width: 175px;
+  position: relative;
+  top: 25px;
+  left: 0px;
+  cursor: pointer;
+  
+}
+.headsett{
+  position: relative;
+  top: 30px;
+  left: 15px;
+  cursor: pointer;
+}
+.keyboard{
+  height:110px;
+  width: 150px;
+  position: absolute;
+  top: 50px;
+  left: 135px;
+  cursor: pointer;
+}
+.key{
+  position: absolute;
+  top: 170px;
+  left: 180px;
+  cursor: pointer; 
+}
+.computermicee{
+  height:120px;
+  width: 170px;
+  position: absolute;
+  top: 200px;
+  left: 0px;
+  cursor: pointer;
+}
+.mice{
+  position: absolute;
+  top: 300px;
+  left: 15px;
+  cursor: pointer;
+}
+.chairs{
+  height:110px;
+  width: 160px;
+  position: absolute;
+  top: 200px;
+  left: 125px;
+  cursor: pointer;
+}
+.chair{
+  position: absolute;
+  top: 300px;
+  left: 180px;
+  cursor: pointer;
+}
+.jeans{
+  height:110px;
+  width: 115px;
+  position: relative;
+  top: 25px;
+  left: 16px;
+  cursor: pointer;
+}
+.jeanss{
+  position: relative;
+  top: 30px;
+  left: 20px;
+  cursor: pointer;
+}
+.tops{
+  height:110px;
+  width: 128px;
+  position: absolute;
+  top: 49.5px;
+  left: 145px;
+  cursor: pointer;
+}
+.top{
+  position: absolute;
+  top: 170px;
+  left: 160px; 
+  cursor: pointer;
+}
+.dresses{
+  height:110px;
+  width: 115px;
+  position: absolute;
+  top: 200px;
+  left: 16px;
+  cursor: pointer;
+}
+.dress{
+  position: absolute;
+  top: 320px;
+  left: 15px;
+  cursor: pointer;
+}
+.shoes{
+  height:110px;
+  width: 128px;
+  position: absolute;
+  top: 200px;
+  left: 145px;
+  cursor: pointer;
+}
+.shoe{
+  position: absolute;
+  top: 320px;
+  left: 160px;
+  cursor: pointer;
+}
+.dining{
+  height:110px;
+  width: 115px;
+  position: relative;
+  top: 25px;
+  left: 20px;
+  cursor: pointer;
+}
+.diningg{
+  position: relative;
+  top: 30px;
+  left: 20px;
+  cursor: pointer;
+}
+.home{
+  height:110px;
+  width: 128px;
+  position: absolute;
+  top: 49.5px;
+  left: 150px;
+  cursor: pointer;
+}
+.homee{
+  position: absolute;
+  top: 170px;
+  left: 160px; 
+  cursor: pointer;
+}
+.kitchen{
+  height:110px;
+  width: 115px;
+  position: absolute;
+  top: 200px;
+  left: 20px;
+  cursor: pointer;
+}
+.kitchenn{
+  position: absolute;
+  top: 320px;
+  left: 15px;
+  cursor: pointer;
+}
+.healthandbeauty{
+  height:110px;
+  width: 128px;
+  position: absolute;
+  top: 200px;
+  left: 150px;
+  cursor: pointer;
+}
+.health{
+  position: absolute;
+  top: 320px;
+  left: 160px;
+  cursor: pointer;
+}
+.speaker{
+  height: 290px;
+  width: 250px;
+  position: relative;
+  top: 28px;
+  left: 20px;
+  cursor: pointer;
+}
+.flag{
+  width:80px;
+  height:50px;
+}
+.newhomearrivals{
+  width: 285px ;
+  height: 410px ;
+  background-color: #FFFFFF ;
+  position: absolute;
+  left: 19px;
+  top: 840px;
+}
+.shopthelatestfromhome{
+  color: #007185;
+  position: absolute;
+  top: 370px;
+  left:30px; 
+}
+.shopthelatestfromhome:hover{
+  cursor: pointer;
+  color: orange;
+}
+.kitchendining{
+  height:110px;
+  width: 115px;
+  position: absolute;
+  top: 80px;
+  left: 17px;
+  cursor: pointer;
+}
+.kitdining{
+  position: absolute;
+  top: 195px;
+  left: 20px;
+  cursor: pointer;
+}
+.homeimprovement{
+  height:110px;
+  width: 128px;
+  position: absolute;
+  top: 80px;
+  left: 145px;
+  cursor: pointer;
+}
+.homeimp{
+  position: absolute;
+  top: 195px;
+  left: 150px; 
+  cursor: pointer;
+}
+.decorimg{
+  height:110px;
+  width: 115px;
+  position: absolute;
+  top: 230px;
+  left: 17px;
+  cursor: pointer;
+}
+.decor{
+  position: absolute;
+  top: 340px;
+  left: 20px;
+  cursor: pointer;
+}
+.beddingbathing{
+  height:110px;
+  width: 128px;
+  position: absolute;
+  top: 230px;
+  left: 145px;
+  cursor: pointer;
+}
+.beddingbath{
+  position: absolute;
+  top: 340px;
+  left: 150px;
+  cursor: pointer;
+}
+.toys{
+  width: 285px;
+  height: 410px;
+  background-color: #FFFFFF;
+  position: absolute;
+  left: 325px;
+  top: 840px;
+}
+.shopnowtoys{
+  color: #007185;
+  position: absolute;
+  top: 360px;
+  left:30px;
+}
+.shopnowtoys:hover{
+  cursor: pointer;
+  color: orange;
+}
+.toy{
+  height: 290px;
+  width: 250px;
+  position: relative;
+  top: 28px;
+  left: 20px;
+  cursor: pointer;
+}
+.beautysteals{
+  width: 290px;
+  height: 410px;
+  background-color: #FFFFFF;
+  position: absolute;
+  right: 324px;
+  top: 840px;
+}
+.shopnowbeautysteals{
+  color: #007185;
+  position: absolute;
+  top: 360px;
+  left:30px;
+}
+.shopnowbeautysteals:hover{
+  cursor: pointer;
+  color: orange;
+}
+.beautyblender{
+  height: 290px;
+  width: 250px;
+  position: relative;
+  top: 28px;
+  left: 20px;
+  cursor: pointer;
+}
+.schoolsupplies{
+  width: 290px ;
+  height: 410px ;
+  background-color: #FFFFFF ;
+  position: absolute;
+  right: 15px;
+  top: 840px;
+}
+.shopnowschoolsupplies{
+  color: #007185;
+  position: absolute;
+  top: 360px;
+  left:30px;
+}
+.shopnowschoolsupplies:hover{
+  cursor: pointer;
+  color: orange;
+}
+.schoolsupplie{
+  height: 290px;
+  width: 250px;
+  position: relative;
+  top: 28px;
+  left: 20px;
+  cursor: pointer;
+}
+.bestsellers{
+  width: 97% ;
+  height: 281.5px;
+  position: absolute;
+  top: 1280px;
+  left: 21.5px;
+  background-color: white;
+}

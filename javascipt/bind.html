@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //bind function
+        function abc(a,b){
+            console.log(`${a} this is object value ${this.name} this is second value ${b}`);
+        }
+        const obj1={name:`asdf`}
+        const q=abc.bind(obj1)
+        q(20,30)
+        //in "apply" fn we can use array but in call we cant use array
+        
+
+    </script>
+</body>
+</html>

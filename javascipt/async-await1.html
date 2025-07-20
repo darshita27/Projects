@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <h1>Async Await </h1>
+    
+</head>
+<body>
+    <p id="demo"></p>
+    <p id="demo1"></p>
+    <script>
+        async function fetchValue(){
+            return new Promise((resolve) =>{
+                setTimeout(() =>{
+                    resolve("Hello, world");
+                }, 3000);
+                });
+
+            }
+            async function displayValue(){
+                document.getElementById("demo").innerHTML= 'Darshita';
+                const value = await fetchValue();
+                document.getElementById("demo1").innerHTML= value;
+            }
+        displayValue();
+    </script>
+</body>
+</html>

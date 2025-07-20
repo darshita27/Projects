@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="mainbox">
+        <h1 style="position: absolute; top: 30px; left: 200px; ">To-do List</h2>
+        <input type="text" name="" id="inputbox" placeholder="Enter Task" style="font-size: 30px;" >
+        <button id="btn" onclick="addtask()">Add Task</button>
+
+        <ul id="unorderlist">
+
+        </ul>
+    </div>
+    <script>
+        const inputbox=document.getElementById('inputbox')
+        const unorderlist1=document.getElementById('unorderlist')
+        function addtask(){
+            let inputvalue= inputbox.value.trim();
+            console.log(inputvalue)
+            if(inputvalue===''){
+                alert('write something here')
+            }
+            else{
+            let list1=document.createElement('li')
+            let textnode=document.createTextNode(inputvalue)
+            list1.appendChild(textnode)
+            unorderlist1.appendChild(list1)
+            inputbox.value=' '
+            //create delete button
+            let deletebutton=document.createElement('button')
+            deletebutton.setAttribute('class','btn')
+            deletebutton.textContent='delete'
+            console.log('delete button')
+            deletebutton.addEventListener('click',function()
+            {
+            unorderlist1.removeChild(list1)
+            })
+            list1.appendChild(deletebutton)
+            unorderlist1.appendChild(list1)
+            }
+        }
+    
+
+    </script>
+</body>
+</html>

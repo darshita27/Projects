@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //write object inside array
+let array=[
+ {
+    question: "This is one",
+    answer: "a",
+    fun:function(){
+        console.log("function inside object which is inside array")
+    }
+ },
+ {
+    question: "This is two",
+    answer: "b",
+ },
+ {
+    question: "This is three",
+    answer: "c",
+ },
+ {
+    question: "This is four",
+    answer: "d",
+ },
+]
+console.log(array[0].fun())
+// console.log(array[0])
+        //using foreach function
+let array1=[10,20,30,40]
+array1.forEach((a)=>{
+   console.log(a) 
+})
+       //to print array with object
+//console.log(a.question) 
+    </script>
+</body>
+</html>

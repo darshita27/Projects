@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+ //FILTER
+    // const ages = [32, 33, 16, 40];
+    //     const result = ages.filter(checkAdult);
+    //     console.log(result)
+    //     function checkAdult(age) {
+    //     return age >= 18;
+    // }
+    // const result=ages.filter((a)=>{
+    //     return a>=18
+    // })
+    // console.log(result)
+//OBJECT
+    let array=[]
+    let obj={
+        name:'abcd',
+        class:[10,20,30,40],
+        school:'xyz',
+        rollno:function(){
+//in obj we can also pass an array
+            // console.log('this function define with in object')
+            console.log(this.name)
+        }
+    }
+    obj.rollno()
+    // console.log(obj.name)
+    // console.log(obj.class)
+    // console.log(obj.school)
+//to add new number in 'class' array
+    //obj.class.push(70)
+    //console.log(obj.class)
+
+
+    </script>
+</body>
+</html>

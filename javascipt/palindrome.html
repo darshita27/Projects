@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input[type="number"]{
+            width: 250px;
+            height:60px;
+            margin: 10px;
+    
+        }
+        ::placeholder{
+            color: blue;
+            font-size: 25px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Check whether a number is Palindrome or not</h1>
+    <input type="number" placeholder="enter the number" id="inputbox1">
+<br>
+<button onclick="checkPalindrome()"> submit</button>
+<h1 id="result"></h1>
+    <script>
+ const inputfirst=document.getElementById('inputbox1')
+ const showResult= document.getElementById('result') 
+ let string=inputfirst.value
+function checkPalindrome(string) {
+
+    const len = string.length;    
+  for (let i = 0; i < len / 2; i++) {  
+      if (string[i] !== string[len - 1 - i]) {
+    console.log('It is a palindrome');
+}
+else {
+    console.log('It is not a palindrome');
+}
+}
+}
+
+//take input
+// const string = prompt('Enter a string: ');
+
+checkPalindrome(string);
+    </script>
+    
+</body>
+</html>

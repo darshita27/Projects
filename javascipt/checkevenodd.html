@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    input[type="number"]{
+        width: 250px;
+        height:60px;
+        margin: 10px;
+
+    }
+    ::placeholder{
+        color: blue;
+        font-size: 25px;
+    }
+</style>
+</head>
+<body>
+<h1>Check whether a number is odd or even</h1>
+<input type="number" placeholder="enter the number" id="inputbox1">
+<br>
+<button onclick="check()"> submit</button>
+<h1 id="result"></h1>
+<script>
+const inputfirst=document.getElementById('inputbox1')
+const showResult= document.getElementById('result')
+function check(){
+    const number1=parseInt(inputfirst.value);
+    if(number1 % 2 == 0)
+        console.log("number is even");
+    else
+        console.log("number is odd");
+    
+}
+
+</script>
+
+</body>
+</html>

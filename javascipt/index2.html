@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<<device-width>>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input[type="number"]{
+            width: 250px;
+            height:60px;
+            margin: 10px;
+
+        }
+        ::placeholder{
+            color: blue;
+            font-size: 25px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Addition Program using web page</h1>
+    <input type="number" placeholder="enter first number" id="inputbox1">
+    <br>
+    <input type="number" placeholder="enter second number" id="inputbox2">
+    <br>
+    <button onclick="add()"> submit</button>
+    <h1 id="result"></h1>
+    <script>
+        const inputfirst=document.getElementById('inputbox1')
+        const inputSecond=document.getElementById('inputbox2')
+        const showResult= document.getElementById('result')
+        function add(){
+            const number1=parseInt(inputfirst.value);
+            const number2=parseInt(inputSecond.value);
+            const result2=number1+number2;
+            showResult.innerHTML=result2
+            
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // let a=[1,2,3,4,5,6,7,8]
+        // a.forEach((0,1)=>{
+        //     console.log(a)
+        // })
+        
+        // let arr=[1,2,3,4]
+        // for(let i=0; i<5; i++)
+        // console.log(arr[i])
+        // arr.forEach((a,b)=>{
+        //     console.log(b)
+        //     console.log(a)
+        // })
+//         let c=arr.map((a,b,c)=>
+// {
+//     return a;
+// })
+let arr=[10,500,30,40,50]
+// let find=50;
+// arr.forEach((element)=>{
+//     if(find==element)
+//     console.log("Found")
+
+// })
+// console.log(find)
+// console.log(c)
+let search=500;
+let count=0
+for(let i=0; i<5; i++){
+    for(let j=i+1; j<5; j++){
+        if(arr[i]<arr[j]){
+            let temp=arr[j];
+            arr[j]=arr[i];
+            arr[i]=temp;
+        }
+    }
+}
+console.log(arr)
+//in foreach we cannot return the value but in map we can
+let c=[1,2,3,4,5,6,7,8]
+const ad=a.array.forEach(element => {
+    return element
+    
+});
+console.log(ad)
+const mapvariable=a.map((element, index,array)=>{
+    return element+2
+})
+console.log(mapvariable)
+let d=a.slice(1,2)
+console.log(d)
+    </script>
+</body>
+</html>

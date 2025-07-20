@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function abc(a,b){
+            console.log(a+','+this.name+b);
+
+        }
+        const obj1={name:'asdf'}
+        abc.call(obj1,20,40)
+        function print(a,b){
+            console.log(this.name+'  '+  a+  b)
+        }
+        const obj2={
+            name:'Darshita',
+            class:'b.tech'
+        }
+        print.call(obj2, 20,40)
+        const abc20={
+            a:'abc',
+            b:'asdf',
+            c:()=>
+            console.log('this is second object value')
+        };
+        abc20.c.call(abc2)
+        
+        //we cant use arrow fn within a 'this' tag
+
+    </script>
+</body>
+</html>

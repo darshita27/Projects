@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function abc(a,b){
+            console.log(`${a} this is object value ${this.name} this is second value ${b}`);
+        }
+        const obj1={name:`asdf`}
+        abc.apply(obj1,[20,30])
+        
+            //in "apply" fn we can use array but in call we cant use array
+    </script>
+</body>
+</html>

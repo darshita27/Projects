@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul id="myList">
+        <li>abcdef</li>
+        <li>Item2</li>
+        <li>Item3</li>
+        <li>Item4</li>
+        <li>Item5</li>
+    </ul>
+    <script>
+        const list =document.getElementById('my List');
+        console.log(list)
+        function handleItemClick(event){
+            console.log(event.target.tagName)
+            if(event.target.tagName === 'LI'){
+                alert('You clicked on ${event.target.textcontent}');
+
+            }
+        }
+        list.addEventlistener('click', handleItemClick);
+    </script>
+    <!-- <button id="btn"> click me</button>
+    <h1 id="heading"></h1>
+    
+        let button1=document.getElementById('btn')
+        let heading1=document.getElementById('heading')
+        button1.addEventListener('click',abc)
+        function abc(){
+            heading1.innerHTML="task done"
+        }  -->
+
+    //     function abcd(callbackk)
+    //     {
+    //         console.log("hello this is abcd function")
+    //         callbackk()
+    //     }
+    //     function pqrs(){
+    //         console.log("this is pqrs function")
+    //     }
+    //     abcd(pqrs)
+    //     function name()
+    //     {
+    //         let name=
+    //         console.log("hello" +name)
+    //     }
+    //     function wqw(name){
+    //         console.log(+ name)
+    //     }
+
+    
+</body>
+</html>

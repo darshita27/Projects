@@ -1,0 +1,14 @@
+.maindiv{
+    width: 500px;
+    height: 500px;
+    background-color: aqua;
+}
+.inputbox{
+    width: 340px;
+    height: 60px;
+}
+.btn{
+    width: 80px;
+    height: 40px;
+    background-color: blue;
+}
